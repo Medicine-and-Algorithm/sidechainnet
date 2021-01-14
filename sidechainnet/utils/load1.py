@@ -86,7 +86,7 @@ def _load_dict(local_path):
     return d
 
 
-def load(casp_version=12,
+def load1(casp_version=12,
          thinning=30,
          scn_dir="./sidechainnet_data",
          force_download=False,
